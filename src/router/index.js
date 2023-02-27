@@ -6,6 +6,7 @@ import CalendarizacionView from "../views/CalendarizacionView.vue";
 import ApuntesView from "../views/ApuntesView.vue";
 import TareaView from "../views/TareaView.vue";
 import InvestigacionView from "../views/InvestigacionView.vue";
+import EvaluacionesView from "../views/EvaluacionesView.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -43,6 +44,11 @@ const router = createRouter({
       path: "/investigacion",
       name: "Investigacion",
       component: InvestigacionView,
+    },
+    {
+      path: "/evaluaciones",
+      name: "Evaluaciones",
+      component: EvaluacionesView,
     },
     // {
     //   path: '/about',

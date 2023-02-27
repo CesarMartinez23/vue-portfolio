@@ -56,7 +56,22 @@ export default {
         7. Consumo de API REST. <br />
       </p>
     </Card>
-    <Card title="Contenido #4"> </Card>
-    <Card title="Contenido #5"> </Card>
+    <Card title="Contenido #4">
+      <p class="lead">
+        Eventos y Clases <br /><br />
+        1. Eventos.<br />
+        2. Manejadores de eventos. <br />
+        3. Modificadores de eventos. <br />
+        4. Clases y estilos en tiempo real. <br />
+      </p>
+    </Card>
+    <Card title="Contenido #5">
+      <p class="lead">
+        Componentes <br /><br />
+        1. Sistema de Componentes.<br />
+        2. Introducción al sistema de Componentes. <br />
+        3. Crear Componentes Custom. <br />
+      </p>
+    </Card>
   </section>
 </template>
