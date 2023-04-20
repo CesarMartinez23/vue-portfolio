@@ -73,5 +73,52 @@ export default {
         3. Crear Componentes Custom. <br />
       </p>
     </Card>
+    <Card title="Contenido #7">
+      <p class="lead">
+        Introducción al desarrollo con php.<br /><br />
+        1. ¿Qué es php?<br />
+        2. Cómo funciona PHP. <br />
+        3. ¿Qué puede hacer con PHP?. <br />
+        4. Ventajas de utilizar PHP. <br />
+      </p>
+    </Card>
+    <Card title="Contenido #8">
+      <p class="lead">
+        Estructuras repetitivas y ciclos o loops en PHP.<br /><br />
+        1. Bucles.<br />
+        2. Arrays.<br />
+        3. Tipos de Matrices.<br />
+        4. Funciones en PHP. <br />
+        5. Funciones integradas en PHP. <br />
+      </p>
+    </Card>
+    <Card title="Contenido #9">
+      <p class="lead">
+        Programación orientada a objetos.<br /><br />
+        1. Abstracción.<br />
+        2. Encapsulamiento.<br />
+        3. Herencia.<br />
+        4. Polimorfismo. <br />
+        5. Clase. <br />
+      </p>
+    </Card>
+    <Card title="Contenido #10">
+      <p class="lead">
+        Clases abstractas e interfaces.<br /><br />
+        1. Clases Abstractas.<br />
+        2. Interfaces.<br />
+      </p>
+    </Card>
+    <Card title="Contenido #11">
+      <p class="lead">
+        Introducción a Laravel.<br /><br />
+        1. MVC.<br />
+        2. HTTP.<br />
+        3. ¿ Que es laravel ?.<br />
+        4. Características. <br />
+        5. Ecosistema. <br />
+        5. Servidores. <br />
+      </p>
+    </Card>
   </section>
 </template>

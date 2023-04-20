@@ -619,6 +619,7 @@
               Semana 10: Clases Abstractas e Interfaces.
             </h2>
             <br />
+            <h2>Clases Abstractas</h2>
             <li>Las clases abstractas no pueden ser instanciadas</li>
             <li>
               Pueden declarar la existencia de los métodos, pero no su
