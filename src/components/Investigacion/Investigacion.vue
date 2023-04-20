@@ -75,7 +75,6 @@
               <li>Symbol</li>
               <li>Object</li>
             </ul>
-
             <h4>Historia</h4>
             <p>
               JavaScript fue creado en el año 1995 por Netscape, en 1997 JS
