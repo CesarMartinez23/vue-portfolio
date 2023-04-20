@@ -383,6 +383,376 @@
               que otra instancia de Vue. Una instancia que puede tener las
               mismas propiedades que cualquier otra instancia.
             </p>
+
+            <!-- Semana 7 -->
+            <h2 class="text-uppercase fw-bold">
+              Semana 7: Introducción al desarrollo con php.
+            </h2>
+            <br />
+            <h4>¿Qué es php?</h4>
+            <p>
+              PHP es un lenguaje de código abierto muy popular, adecuado para
+              desarrollo web y que puede ser incrustado en HTML. Es popular
+              porque un gran número de páginas y portales web están creados con
+              PHP.
+            </p>
+            <br />
+            <h4>Cómo funciona</h4>
+            <p>
+              El usuario escribe una URL una ruta o dirección para poder
+              localizar una página web,imagen, servidor etc. en su navegador y
+              éste envía un petición al servidor web.Un servidor web es la
+              maquina o computador donde se almacena una página web. El servidor
+              lee la página PHP (la interpreta). Envía al navegador del usuario
+              un documento compilado en formato HTML
+            </p>
+            <br />
+            <h4>¿Qué puede hacer?</h4>
+            <p>
+              Permite la ejecución de scripts en la parte del servidor. Se
+              necesitan tres elementos: El analizador PHP (CGI ó módulo), un
+              servidor web y un navegador.
+              <br />
+              Ejecución de scripts desde la línea de comandos sin la necesidad
+              de un servidor Web o navegador. Escritura de aplicaciones gráficas
+              clientes por medio de una extensión llamada PHP-GTK.
+              <br />
+              Puede ser utilizado en cualquiera de los principales sistemas
+              operativos del mercado. Linux, Unix, Microsoft Windows, Mac OS X,
+              RISC OS y probablemente alguno más. Soporta la mayoría de los
+              servidores web de hoy en día. Incluyendo Apache, Microsoft
+              Internet Information Server, Personal Web Server, y muchos otros.
+            </p>
+            <h4>Ventajas de utilizar PHP</h4>
+            <p>
+              Lenguaje de programación totalmente libre y de código abierto. Es
+              la expresión con la que se conoce al software o programas que se
+              pueden usar libremente. Normalmente son gratuitos y se puede
+              acceder a su código fuente, es decir, es un lenguaje que se puede
+              usar de forma gratuita
+              <br />
+            </p>
+            <!-- Semana 8 -->
+            <h2 class="text-uppercase fw-bold">
+              Semana 8: Estructuras repetitivas y ciclos o loops en PHP.
+            </h2>
+            <br />
+            <h4>Bucles</h4>
+            <p>
+              Un bucle en PHP se usa para ejecutar una declaración o un bloque
+              de declaraciones, varias veces hasta que se cumpla una condición
+              específica.
+            </p>
+            <br />
+            <h4>FOR</h4>
+            <p>
+              Este tipo de bucles se utiliza cuando el usuario sabe de antemano
+              cuántas veces debe ejecutarse el bloque. Es decir, el número de
+              iteraciones se conoce de antemano. Este tipo de bucles también se
+              conocen como bucles controlados por entrada. Hay tres parámetros
+              principales para el código: la inicialización, la condición de
+              prueba y el contador.
+            </p>
+            <br />
+            <h4>WHILE</h4>
+            <p>
+              El ciclo while también es un ciclo de control de entrada como para
+              los ciclos, es decir, primero verifica la condición al comienzo
+              del ciclo y, si es verdadero, ingresa al ciclo y ejecuta el bloque
+              de instrucciones, y continúa ejecutándose como siempre y cuando la
+              condición sea cierta
+            </p>
+            <br />
+            <h4>DO-WHILE</h4>
+            <p>
+              Es un bucle de control de salida, lo que significa que primero
+              ingresa al bucle, ejecuta las declaraciones y luego verifica la
+              condición. Por lo tanto, una declaración se ejecuta al menos una
+              vez al usar el bucle do ... while. Después de ejecutar una vez, el
+              programa se ejecuta siempre que la condición sea verdadera.
+            </p>
+            <br />
+            <h4>FOREACH</h4>
+            <p>
+              Este bucle se utiliza para iterar sobre matrices. Para cada
+              contador de bucle, se asigna un elemento de matriz y el siguiente
+              contador se desplaza al siguiente elemento.
+            </p>
+            <br />
+            <h4>ARRAYS</h4>
+            <p>
+              Las matrices en PHP son un tipo de estructura de datos que nos
+              permite almacenar múltiples elementos de un tipo de datos similar
+              en una sola variable, lo que nos ahorra el esfuerzo de crear una
+              variable diferente para cada dato. Los arreglos son útiles para
+              crear una lista de elementos de tipos similares, a los que se
+              puede acceder utilizando su índice o clave.
+            </p>
+            <br />
+            <h4>Básicamente, hay tres tipos de matrices en PHP:</h4>
+            <li>
+              Matrices indexadas o numéricas: una matriz con un índice numérico
+              donde los valores se almacenan linealmente.
+            </li>
+            <li>
+              Matrices asociativas: una matriz con un índice de cadena donde en
+              lugar de almacenamiento lineal, a cada valor se le puede asignar
+              una clave específica.
+            </li>
+            <li>
+              Matrices multidimensionales: una matriz que contiene una matriz
+              única o múltiple dentro de ella y se puede acceder a través de
+              múltiples índices.
+            </li>
+            <br />
+            <h4>FUNCIONES MATRIZ</h4>
+            <br />
+            <h5>Count()</h5>
+            <p>
+              La función de conteo se usa para contar el número de elementos que
+              contiene una matriz php.
+            </p>
+            <br />
+            <h5>Is_Arrays()</h5>
+            <p>
+              La función is_array se usa para determinar si una variable es una
+              matriz o no.
+            </p>
+            <br />
+            <h5>Sort()</h5>
+            <li>
+              Esta función se utiliza para ordenar las matrices por los valores.
+            </li>
+            <li>
+              Si los valores son alfanuméricos, los ordena en orden alfabético.
+            </li>
+            <li>
+              Si los valores son numéricos, los ordena en orden ascendente.
+            </li>
+            <li>
+              Elimina las claves de acceso existentes y agrega nuevas claves
+              numéricas.
+            </li>
+            <li>La salida de esta función es una matriz numérica</li>
+            <br />
+            <h5>Ksort()</h5>
+            <p>Esta función se usa para ordenar la matriz usando la clave.</p>
+            <br />
+            <h5>Asort()</h5>
+            <p>
+              Esta función se usa para ordenar la matriz usando los valores.
+            </p>
+            <br />
+            <h4>Funciones en PHP</h4>
+            <p>
+              Una función en PHP es una pieza o bloque de código reutilizable
+              que realiza una acción específica. Toma la entrada del usuario en
+              forma de parámetros, realiza ciertas acciones y da la salida. Las
+              funciones pueden devolver valores cuando se les llama o
+              simplemente pueden realizar una operación sin devolver ningún
+              valor.
+            </p>
+            <br />
+            <h4>Funciones integradas en PHP</h4>
+            <p>
+              Las funciones integradas son funciones predefinidas en PHP que
+              existen en el paquete de instalación. A continuación, se listan
+              estas funciones, para más información consulte la guía práctica de
+              la semana.
+            </p>
+            <!-- Semana 9 -->
+            <h2 class="text-uppercase fw-bold">
+              Semana 9: Programación Orientada a Objetos.
+            </h2>
+            <br />
+            <p>
+              La Programación Orientada a Objetos (POO u OOP según sus siglas en
+              inglés) es un paradigma de programación que usa objetos y sus
+              interacciones para diseñar aplicaciones y programas de
+              computadora. Está basado en varias técnicas, incluyendo
+              herencia,modularidad, polimorfismo, y encapsulamiento. Su uso se
+              popularizó a principios de la década de 1990. Actualmente son
+              muchos los lenguajes de programación que soportan la orientación a
+              objetos.
+            </p>
+            <br />
+            <h5>Abstracción</h5>
+            <p>
+              La abstracción es un proceso de interpretación y diseño que
+              implica reconocer y enfocarse en las características importantes
+              de una situación u objeto, y filtrar o ignorar todas las
+              particularidades no esenciales.
+            </p>
+            <br />
+            <h5>Encapsulamiento.</h5>
+            <p>
+              El encapsulamiento consiste en agrupar en una Clase las
+              características(atributos) con un acceso privado y los
+              comportamientos (métodos) con un acceso público.
+            </p>
+            <br />
+            <h5>Herencia.</h5>
+            <p>
+              Es una propiedad que permite crear clases a partir de otras ya
+              existentes, obteniendo características (métodos y atributos)
+              similares a los ya existentes.
+            </p>
+            <br />
+            <h5>Polimorfismo.</h5>
+            <p>
+              Son comportamientos diferentes, asociados a objetos distintos,
+              pueden compartir el mismo nombre; al llamarlos por ese nombre se
+              utilizará el comportamiento correspondiente al objeto que se esté
+              usando.
+            </p>
+            <br />
+            <h5>Clase.</h5>
+            <p>
+              Una Clase es la Implementación total o parcial de un tipo
+              abstracto de dato, para mayor compresión podemos visualizar las
+              clases como los esquemas o moldes que nos permitirán crear objetos
+              o instancias concretas. Una clase es por tanto una plantilla
+              implementada en Software que describe un conjunto de objetos con
+              atributos y comportamiento similares.
+            </p>
+            <!-- Semana 10 -->
+            <h2 class="text-uppercase fw-bold">
+              Semana 10: Clases Abstractas e Interfaces.
+            </h2>
+            <br />
+            <li>Las clases abstractas no pueden ser instanciadas</li>
+            <li>
+              Pueden declarar la existencia de los métodos, pero no su
+              implementación.
+            </li>
+            <li>
+              Puede contener métodos no-abstractos, pero debe de contener al
+              menos un método abstracto.
+            </li>
+            <li>
+              Los métodos abstractos deben ser definidos en las clases
+              heredadas, pero deben tener la misma visibilidad.
+            </li>
+            <li>
+              La implementación debe tener la misma “firma”: la declaración de
+              tipos y el número de argumentos.
+            </li>
+            <li>
+              Las clases abstractas están implementadas desde la versión 5.4.0.
+            </li>
+            <br />
+            <h2>Interfaces</h2>
+            <li>
+              Las interfaces nos permiten crear código con el cual especificar
+              qué métodos deben ser implementados por una clase (prototipos),
+              sin definir su implementación.
+            </li>
+            <li>
+              Las interfaces se definen con la palabra reservada interface.
+            </li>
+            <li>Los métodos declarados en una interfaz deben ser públicos.</li>
+            <li>
+              Para implementar una interface desde una clase se utiliza la
+              palabra reservada implements.
+            </li>
+            <li>
+              Una clase puede implementar más de una interfaz si se desea.
+            </li>
+            <br />
+            <!-- Semana 11 -->
+            <h2 class="text-uppercase fw-bold">
+              Semana 11: Introducción a Laravel.
+            </h2>
+            <br />
+            <h4>MVC</h4>
+            <p>
+              Modelo-Vista-Controlador (MVC) es un patrón arquitectónico que
+              separa una aplicación en tres componentes lógicos principales
+              Modelo, Vista y Controlador. De ahí la abreviatura MVC.
+            </p>
+            <br />
+            <h4>HTTP</h4>
+            <p>
+              HTTP es un protocolo que permite la obtención de recursos, como
+              documentos HTML. Es la base de cualquier intercambio de datos en
+              la Web y es un protocolo cliente-servidor, lo que significa que
+              las solicitudes son iniciadas por el destinatario, generalmente el
+              navegador Web.
+            </p>
+            <br />
+            <h4>¿ Que es laravel ?</h4>
+            <p>
+              Laravel es un Framework con una sintaxis elegante y expresiva. Un
+              Framework proporciona una estructura y un punto de partida para
+              crear aplicaciones.
+              <br />
+              Laravel se esfuerza por proporcionar una experiencia de
+              desarrollador increíble, al tiempo que proporciona funciones
+              poderosas como la inyección de dependencias exhaustiva, una capa
+              de abstracción de base de datos expresiva, colas y trabajos
+              programados, pruebas de integración y unidad, y más.
+            </p>
+            <br />
+            <h4>Características</h4>
+            <li>
+              Un sistema de rutas, mediante las cuales es fácil crear y mantener
+              todo tipo de URLs amistosas a usuarios y buscadores, rutas de API,
+              etc.
+            </li>
+            <li>
+              Un sistema de abstracción de base de datos, con un ORM potente
+              pero sencillo de manejar, mediante el que podemos tratar los datos
+              de la base de datos como si fueran simples objetos.
+            </li>
+            <li>
+              Un sistema para creación de colas de trabajo, de modo que es
+              posible enviar tareas para ejecución en background y aumentar el
+              rendimiento de las aplicaciones.
+            </li>
+            <li>
+              Varias configuraciones para envío de email, con proveedores
+              diversos.
+            </li>
+            <br />
+            <h4>Ecosistema</h4>
+            <p>
+              Una de las claves del éxito de Laravel es que se ha convertido en
+              una industria de Generación de servicios relacionados con el
+              framework. Esto ha permitido que las personas cercanas a su
+              núcleo, Taylor Otwell a la cabeza, tengan una base sólida para
+              financiar el desarrollo de Laravel, agregar funcionalidad y seguir
+              innovando con la creación de nuevas herramientas que hagan la vida
+              más sencilla a los desarrolladores.
+            </p>
+            <br />
+            <h4>Servidores</h4>
+            <p>
+              Una de las grandes ventajas de Laravel es la cantidad de opciones
+              que ofrece para crear entornos de desarrollo. Gracias a ello
+              cualquier desarrollador puede encontrar una alternativa que se
+              adapte a sus necesidades o preferencias.
+            </p>
+            <br />
+            <li>
+              Servidor interno: seria la opción más básica, que se consigue
+              mediante un simple comando de consola. php artisan serve.
+            </li>
+            <li>
+              Laravel Valet: disponible para Mac, permite crear virtual hosts
+              mediante comandos de consola.
+            </li>
+            <li>
+              Homestead: esta opción es la más avanzada y se basa en
+              virtualización, con lo que se obtiene un entorno profesional que
+              se adapta a las condiciones del servidor
+            </li>
+            <li>
+              Cualquier otro servidor web habitual: por supuesto, Laravel además
+              puede usarse cualquier servidor local PHP que se disponga, entre
+              los que recomendamos Laragon, Xampp o Mamp. Estas alternativas
+              tienen la ventaja de disponer de la instalación de MySQL en un
+              solo paso.
+            </li>
           </div>
         </div>
       </div>
