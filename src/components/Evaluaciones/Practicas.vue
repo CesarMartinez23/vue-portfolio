@@ -13,7 +13,7 @@ export default {
       href="http://www.github.com/CesarMartinez23/Practicas_Programacion_IV"
       target="_blank"
       rel="noopener noreferrer"
-      >Practicas de Laboratorio <i class="bi bi-github"></i
+      >Practicas de Laboratorio Computo I <i class="bi bi-github"></i
     ></a>
   </h2>
   <Card week="Practica #1">
@@ -59,4 +59,24 @@ export default {
       </div>
     </div>
   </Card>
+
+  <Card week="Practicas Computo II">
+    <div class="col-lg-8 col-md-8 col-12 ps-lg-5 mt-md-5 mb-5">
+      <div class="about-img">
+        <img
+          src="../../assets/img/Practicas/practicascomputo2.png"
+          class="img-fluid mt-5"
+        />
+      </div>
+    </div>
+  </Card>
+
+  <h2 class="fw-bold text-center">
+    <a
+      href="https://github.com/CesarMartinez23/Practicas_Programacion_IV_PHP.git"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Practicas de Laboratorio Computo II <i class="bi bi-github"></i
+    ></a>
+  </h2>
 </template>
